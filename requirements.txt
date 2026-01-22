@@ -10,3 +10,5 @@ scipy
 pydantic
 requests
 implicit
+streamlit
+requests
