@@ -11,10 +11,10 @@ RUN apt-get update && apt-get install -y \
 # -----------------------------------------------------
 
 # Copy requirements first (to leverage Docker caching)
-COPY requirements.txt .
+COPY requirements-backend.txt .
 
 # Install dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements-backend.txt
 
 # Copy the rest of the application
 COPY . .
