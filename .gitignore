@@ -1,0 +1,27 @@
+# --- Python & Virtual Environments ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+.env
+
+# --- OS Generated Files ---
+.DS_Store
+Thumbs.db
+
+# --- Heavy Data & Models (DVC will track these) ---
+# We ignore the folders, but DVC tracks the specific files inside via .dvc files
+/data
+#/models
+
+# --- IDE Settings (Optional but recommended) ---
+.vscode/
+.idea/
+
+# --- DVC ---
+# Keep DVC internal files, but ignore the actual storage if local
+/dvc_plots/
+/dvc_metrics/

@@ -1,0 +1,12 @@
+raw_data_path: "data/raw/reviews_electronics_5.json"
+processed_data_path: "data/processed"
+
+col_map:
+  user: "reviewerID"
+  item: "asin"
+  rating: "overall"
+  time: "unixReviewTime"
+
+min_rating: 4
+min_user_interactions: 5
+test_days: 60
