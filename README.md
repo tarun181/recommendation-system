@@ -3,5 +3,5 @@ An End-to-End Machine Learning project that recommends electronic products to us
 It utilizes a Hybrid Architecture combining Collaborative Filtering (ALS) for candidate generation and Gradient Boosting (LightGBM) for re-ranking.
 ---
 # 🚀 Live Demo
-[click on github](https://recommendation-system-0121.streamlit.app/)
+[click on ##Click here to try](https://recommendation-system-0121.streamlit.app/)
 Note: Service is  hosted on free-tier instances. Please wait for a minute or two.
